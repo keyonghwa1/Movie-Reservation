@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+table.r_t {
+	  text-align: left;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  
+ table.r_t thead {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: #f48b94;
+}
+  th {
+  	background-color:#f48b94;
+  }
+ th, td {
+    border: 1px solid #444444;
+    padding: 10px;
+  }
+  
+ .rt{
+ 	position: relative;
+    left:100px; /*오른쪽 정렬*/
+    padding: 100px 0;  /* 위랑 떨어뜨려놓는곳*/
+ }
+ 
+ table.r_t thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+}
+
+.btncom {
+    background: #d011;
+    border: 2px solid white;
+    border-radius: 4px;
+    height: 25px;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 4px;
+}

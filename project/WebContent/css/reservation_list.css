@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+table.reserve_ls {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    bordr-radius: 50%;
+}
+table.reserve_ls thead {
+   border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: #f48b94;
+}
+table.reserve_ls thead th {
+   padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+}
+table.reserve_ls tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #fcf1f4;
+}
+.res{
+	position: relative;
+    left:100px; /*오른쪽 정렬*/
+    padding: 150px 0;  /* 위랑 떨어뜨려놓는곳*/
+}
+
+.btn {
+    background: #d011;
+    width: 180px;
+    height: 35px;
+    background-position: -96px 0px;
+}

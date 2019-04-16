@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="member">
+	
+	<!-- product는 vo.ProductVO 이다! sqlMapConfig.xml 에서 별명 부여 했음 -->
+	<select id="member_list" 
+			parameterType="java.lang.String"
+			resultType="member">
+		select * from member 
+	</select>
+	
+	
+	<!-- idx에 해당하는 정보만 가져오는 select 
+			정수 idx를 매개변수로 받고, product(vo.ProductVO) 를 반환한다-->
+	<select id="member_one" parameterType="java.lang.String" resultType="member">
+		select * from member where mem_id=#{mem_id}
+	</select>
+	
+	
+	<insert id="member_insert" parameterType="member">
+		insert into member values(
+			seq_member_idx.nextVal,
+			#{mem_name},
+			#{mem_id},
+			#{mem_pwd},
+			#{mem_phone})	
+	</insert>
+	
+	<delete id="member_delete" parameterType="int">
+		delete from member where mem_idx=#{mem_idx}
+	</delete>
+
+	
+
+</mapper>

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+table.member_ls {
+  border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    bordr-radius: 50%; }
+	
+caption{color:transparent;}
+
+body{position:relative;}
+
+.btncom {
+    background:#d011;
+    border: 2px solid white;
+    border-radius: 4px;
+    height: 25px;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 4px;
+    
+}
+table.member_ls thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+}
+
+ th{font-size:15px; padding:0 15px; text-align:right;
+    background: #f48b94;
+    border: 2px solid white;
+    border-radius: 4px;
+    height: 25px;}
+    
+ .btn{
+    font-size: 15px;
+    padding: 0 15px;
+    text-align: right;
+    background: #e6e6e6;
+    border: 2px solid white;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.memls{
+	position: relative;
+    left:30px; /*오른쪽 정렬*/
+    padding: 150px 0;  /* 위랑 떨어뜨려놓는곳*/
+}

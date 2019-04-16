@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<typeAliases>
+		<typeAlias type="vo.MovieVO" alias="movie"/>
+		<typeAlias type="vo.MemberVO" alias="member"/>
+		<typeAlias type="vo.ScreenVO" alias="screen"/>
+		<typeAlias type="vo.ReservationVO" alias="reservation"/>
+	</typeAliases>
+
+	<environments default="">
+		<environment id="">
+			<transactionManager type="JDBC" />
+			<dataSource type="JNDI">
+				<property name="data_source" 
+				value="java:comp/env/jdbc/oracle_test" />
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<mappers>
+		<!-- 맵퍼를 준비해두면 나중에 쿼리문을 통해 자동으로 객체화 해 준다. -->
+		<mapper resource="config/mybatis/mapper/movie.xml" />
+		<mapper resource="config/mybatis/mapper/member.xml"/>
+		<mapper resource="config/mybatis/mapper/screen.xml" />
+		<mapper resource="config/mybatis/mapper/reservation.xml" />
+
+	</mappers>
+</configuration>
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+@charset"utf-8";
+
+
+body{position:relative;}
+.position{position:absolute; top:203px; right:674px;}
+.btncom{background:#d011; margin-left: 76px; margin-top:15px; border:2px solid white; border-radius:4px; height:25px;padding:20px; font-size:15px; line-height:4px;}
+.btnreset{margin-left:20px;}
+
+
+/*screen_reg_form,movie_reg_form*/
+.reg_form{text-align:center;}
+.reg_form tr{font-size:18px;}
+.reg_form th{text-align:right;}
+.reg_form td{text-align:left;padding-left:10px;}
+.reg_form input{background:#e6e6e6; border:2px solid white; border-radius:4px; height:25px;}
+
+/*screen view*/
+.view td{padding-bottom:15px;font-size:18px;}
+
+
+/*movie_view*/
+.img td{width:300px;}
+.time{margin-left: 295px; background:#D0A9F5;}

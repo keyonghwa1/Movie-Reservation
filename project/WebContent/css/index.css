@@ -1,0 +1,76 @@
+a@charset "UTF-8";
+
+/*************�쁺�솕 �벑濡�, 濡쒓렇�씤, 濡쒓렇�븘�썐 踰꾪듉*****/
+#button { padding: 20px;
+		  margin-bottom: 20px;
+		  float: right; }
+
+/**************�긽�떒 CINEMA ���씠��**********/	
+#title { padding: 20px;
+		 margin-bottom: 20px;
+		 margin-left: 3px;
+		 background-color: #DED6D5;
+		 text-align: center;
+		 text-size: 50px;
+		 }
+#title h1{background-image: url(logo.jpg); }
+		 
+		 
+/******************�쇊履� 硫붾돱****************/	
+ 
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#cssmenu {
+  width: 130px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+#cssmenu ul ul {
+  display: none;
+}
+.align-right {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 15px 20px;
+  border-left:  #837676;
+  border-right: #837676;
+  border-top: #837676;
+  margin: 1px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  background: #DED6D5;
+}
+
+#cssmenu > ul > li > a:hover {
+	background: #554b4a;
+	color:white;
+}
+#button{float: right; padding: 20px;}
+#button input{padding:6px 8px; border: 1px solid #fff; border-radius: 8px;line-height: 10px; background: #f48b94; color: #fff;}
+
+#css{float:left;}
+
+.somenu{float:left; position:absolute; top:130px; right:885px; width:300px; }
+.somenu ul li{float:left; }
+.somenu ul li a{padding:20px; background:#E6E6E6; color:#fff;}
+.somenu ul li a:hover{background:#F6CED8;}

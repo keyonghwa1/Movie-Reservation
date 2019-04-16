@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+
+
+table.movie_ls {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    bordr-radius: 50%;
+    
+    
+}
+table.movie_ls thead {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    background: #f48b94;
+}
+table.movie_ls thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+}
+table.movie_ls tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #fcf1f4;
+}
+.btncom{background:#d011; margin: 0 10px 0 0; margin-top: 3px; border:2px solid white; border-radius:5px; height:20px; padding: 0 0 0 10px; font-size:10px; line-height: 14px;}
+
+.btn{
+	background:#d011;
+    width: 57px;
+    height: 25px;
+    background-position: -96px 0px;
+}
+
+/*div */
+
+.ml{
+	position: relative;
+    left:100px; /*오른쪽 정렬*/
+    padding: 100px 0;  /* 위랑 떨어뜨려놓는곳*/
+}
+
+
+

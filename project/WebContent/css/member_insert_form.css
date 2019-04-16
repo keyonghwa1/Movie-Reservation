@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{position:relative;}
+table{position:absolute; top:97px; left:394px; border:none;}
+caption{color:transparent;}
+th{font-size:15px; padding:0 15px; text-align:right;}
+input{background:#e6e6e6; border:2px solid white; border-radius:4px; height:25px;}
+.btnoverlap{padding:5px; border:1px solid #fff; border-radius:8px; line-height:10px; background:#f48b94; color:#fff;}
+.btn td{padding:10px 0 0 70px;}
+.btncom{background:#d011; border:2px solid white; border-radius:4px; height:25px;padding:20px; font-size:15px; line-height:4px;}
+.btnreset{margin-left:20px;}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="reservation">
+	
+	<!-- product는 vo.ProductVO 이다! sqlMapConfig.xml 에서 별명 부여 했음 -->
+	<select id="reservation_list" 
+			parameterType="int"
+			resultType="reservation">
+		select * from reservation_view where mem_idx=#{mem_idx} 
+	</select>
+	
+	<insert id="reservation_insert" parameterType="reservation">
+		insert into reservation values(
+			seq_reservation_idx.nextVal,
+			#{mem_idx},
+			#{s_idx},
+			sysdate,
+			#{r_seat}
+			)	
+	</insert>
+	
+	<select id="reservation_one" parameterType="reservation" resultType="reservation">
+		select * from reservation where r_seat=#{r_seat} and s_idx=#{s_idx}
+	</select>
+	
+	<select id="reservation_seat" parameterType="int" resultType="reservation">
+		select r_seat from reservation where s_idx=#{s_idx}
+	</select>
+	
+	<delete id="reservation_delete" parameterType="int">
+		delete from reservation where r_idx=#{r_idx}
+	</delete>
+</mapper>

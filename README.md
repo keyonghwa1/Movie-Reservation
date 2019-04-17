@@ -28,4 +28,4 @@
 ## 시연
 #### 관리자용
 
-[![video]()](https://youtu.be/uLR1RNqJ1Mw?t=0s) 
+[![video]()](https://youtu.be/OwQ4U_4k2eo) 

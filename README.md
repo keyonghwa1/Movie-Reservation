@@ -27,5 +27,8 @@
 
 ## 시연
 #### 관리자용
+[![admin]()](https://youtu.be/OwQ4U_4k2eo) 
 
-[![video]()](https://youtu.be/OwQ4U_4k2eo) 
+#### 회원용
+[![member]()](https://youtu.be/lxQWDx-7pi0) 
+

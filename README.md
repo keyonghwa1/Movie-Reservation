@@ -21,4 +21,9 @@
 
 ## 공헌한 내용
 #### 참여도:40%
-DB에 저장, 출력 , 초기화 - oracle
+#### 결과를 얻어오기 위한 서버 액션: JAVA, Servlet, JSP, JSTL, EL
+#### DB액션 처리: JDBC
+
+![db001](https://user-images.githubusercontent.com/49432951/56279814-cf4ace00-6143-11e9-9621-6aefa302044e.png)
+
+

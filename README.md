@@ -31,8 +31,8 @@
 
 ## 시연
 #### 관리자용
-[![admin]()](https://youtu.be/OwQ4U_4k2eo) 
+[![admin]()](https://youtu.be/Rx4k8x3meSw) 
 
 #### 회원용
-[![member]()](https://youtu.be/lxQWDx-7pi0) 
+[![member]()](https://youtu.be/x2fcJlkrAfg) 
 
